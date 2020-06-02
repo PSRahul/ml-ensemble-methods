@@ -8,4 +8,7 @@ A stacking classifier was also trained based on Random forests , extremely rando
 
 Frameworks used - Scikit-Learn
 
+Dataset - MNIST | http://yann.lecun.com/exdb/mnist/
+          
+
 Based on the exercise from “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", 2nd Edition, by Aurélien Géron (O’Reilly)
