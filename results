@@ -1,6 +1,0 @@
-Random Forest Classifier  :  Validation Set  0.9674  Test Set  0.9687
-Extra Forest Classifier   :  Validation Set  0.9722  Test Set  0.9707
-Support Vector Classifier :  Validation Set  0.9609  Test Set  0.9646
-Soft Voting Classifier    :  Validation Set  0.9722  Test Set  0.9742
-
-Blending Score 0.9708
