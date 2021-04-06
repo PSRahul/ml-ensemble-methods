@@ -18,7 +18,8 @@ Soft Voting Classifier           |  Stacking Classifier
 Extra Trees Classifier
 Soft Voting Classifier           |  Stacking Classifier
 :-------------------------:|:-------------------------:
-![](images/et_Score_Estimators.png)  |  ![](images/et_Score_MaxDepth.png)
+![](images/et_Score_Estimators.png) |  ![](images/et_Score_MaxDepth.png)
+
 
 
 ### Accuracy Results 
@@ -26,7 +27,7 @@ Soft Voting Classifier           |  Stacking Classifier
 	
 |    Classifier Method    | Test Set Accuracy (%) |    
 |:-----------------------:|:---------------------:|   
-|      Random Forests     |         96.87         |    
+|      Random Forests     |         96.87         |     
 |      Extra Forests      |         97.07         |    
 | Support Vector Machines |         96.46         |
 
