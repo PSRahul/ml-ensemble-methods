@@ -11,16 +11,15 @@ Soft Voting Classifier           |  Stacking Classifier
 ### Hyperparameter Optimization for Individual Classifier
 
 Random Forest classifier
-Soft Voting Classifier           |  Stacking Classifier
+Number of Estimators           |  Maximum Depth of tree
 :-------------------------:|:-------------------------:
-![](images/rf_Score_Estimators.png)  |  ![](images/rf_Score_MaxDepth.png)
+<img src="images/rf_Score_Estimators.png" width="400" height="400"> | <img src="images/rf_Score_MaxDepth.png" width="400" height="400">
+
 
 Extra Trees Classifier
-Soft Voting Classifier           |  Stacking Classifier
+Number of Estimators           |  Maximum Depth of tree
 :-------------------------:|:-------------------------:
-![](images/et_Score_Estimators.png) |  ![](images/et_Score_MaxDepth.png)
-
-
+<img src="images/et_Score_Estimators.png" width="400" height="400"> | <img src="images/et_Score_MaxDepth.png" width="400" height="400">
 
 ### Accuracy Results 
 
