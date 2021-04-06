@@ -2,15 +2,24 @@
 
 The projects investigates different ensemble machine learning methods for classification of images of digits using the MNIST dataset.
 
-An soft-voting classifier was trained based on Random Forests and Support Vector Machine for the MNIST dataset. The optimised model achieved an test accuracy of 97.42%
-
-A stacking classifier was also trained based on Random forests, extremely randomized Forests and Support Vector Machine that classified a test accuracy of 97.08%
-
 ### Schematic of Ensemble Classifiers
 
 Soft Voting Classifier           |  Stacking Classifier
 :-------------------------:|:-------------------------:
 ![](images/soft_voting.png)  |  ![](images/stacking.png)
+
+### Hyperparameter Optimization for Individual Classifier
+
+Random Forest classifier
+Soft Voting Classifier           |  Stacking Classifier
+:-------------------------:|:-------------------------:
+![](images/rf_Score_Estimators.png)  |  ![](images/rf_Score_MaxDepth.png)
+
+Extra Trees Classifier
+Soft Voting Classifier           |  Stacking Classifier
+:-------------------------:|:-------------------------:
+![](images/et_Score_Estimators.png)  |  ![](images/et_Score_MaxDepth.png)
+
 
 ### Accuracy Results 
 
