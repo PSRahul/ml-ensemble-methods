@@ -1,14 +1,37 @@
-# ML_Ensemble_Methods
+## Machine Learning Ensemble Methods
 
-The projects contain an investigation on ensemble machine learning methods for the MNIST dataset.
+The projects investigates different ensemble machine learning methods for classification of images of digits using the MNIST dataset.
 
-An soft-voting classifier was trained based on Random Forests and Support Vector Machine for the MNIST dataset. The optimised model achieved an test accuracy of 97.42%
+### Schematic of Ensemble Classifiers
 
-A stacking classifier was also trained based on Random forests, extremely randomized Forests and Support Vector Machine that classified a test accuracy of 97.08%
+Soft Voting Classifier           |  Stacking Classifier
+:-------------------------:|:-------------------------:
+![](src_images/soft_voting.png)  |  ![](src_images/stacking.png)
 
-Models based on Scikit-Learn
+### Hyperparameter Optimization for Individual Classifiers
 
-Dataset - MNIST | http://yann.lecun.com/exdb/mnist/
-          
+Random Forest classifier
+Number of Estimators           |  Maximum Depth of tree
+:-------------------------:|:-------------------------:
+<img src="src_images/rf_Score_Estimators.png" width="400" height="400"> | <img src="src_images/rf_Score_MaxDepth.png" width="400" height="400">
 
-Based on the exercise from “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", 2nd Edition, by Aurélien Géron (O’Reilly)
+
+Extra Trees Classifier
+Number of Estimators           |  Maximum Depth of tree
+:-------------------------:|:-------------------------:
+<img src="src_images/et_Score_Estimators.png" width="400" height="400"> | <img src="src_images/et_Score_MaxDepth.png" width="400" height="400">
+
+### Accuracy Results 
+
+	
+|    Classifier Method    | Test Set Accuracy (%) |    
+|:-----------------------:|:---------------------:|   
+|      Random Forests     |         96.87         |     
+|      Extra Forests      |         97.07         |    
+| Support Vector Machines |         96.46         |
+
+
+|     Ensemble Method    | Test Set Accuracy (%) |
+|:----------------------:|:---------------------:|
+| Soft Voting Classifier |         97.42         |
+|   Blending Classifier  |         97.08         |
