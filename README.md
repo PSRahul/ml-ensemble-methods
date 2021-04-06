@@ -8,7 +8,7 @@ Soft Voting Classifier           |  Stacking Classifier
 :-------------------------:|:-------------------------:
 ![](src_images/soft_voting.png)  |  ![](src_images/stacking.png)
 
-### Hyperparameter Optimization for Individual Classifier
+### Hyperparameter Optimization for Individual Classifiers
 
 Random Forest classifier
 Number of Estimators           |  Maximum Depth of tree
