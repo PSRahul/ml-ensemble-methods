@@ -13,12 +13,13 @@ Soft Voting Classifier           |  Stacking Classifier
 Random Forest classifier
 Soft Voting Classifier           |  Stacking Classifier
 :-------------------------:|:-------------------------:
-![](images/rf_Score_Estimators.png)  |  ![](images/rf_Score_MaxDepth.png)
+![](images/rf_Score_Estimators.png)  |  ![](images/rf_Score_MaxDepth.png =100x20)
 
 Extra Trees Classifier
 Soft Voting Classifier           |  Stacking Classifier
 :-------------------------:|:-------------------------:
-![](images/et_Score_Estimators.png)  |  ![](images/et_Score_MaxDepth.png)
+![](images/et_Score_Estimators.png =100x20){ width=50% }  |  ![](images/et_Score_MaxDepth.png =100x20){ width=50% }
+
 
 
 ### Accuracy Results 
