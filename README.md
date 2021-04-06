@@ -6,7 +6,7 @@ The projects investigates different ensemble machine learning methods for classi
 
 Soft Voting Classifier           |  Stacking Classifier
 :-------------------------:|:-------------------------:
-![](images/soft_voting.png)  |  ![](images/stacking.png)
+![](src_images/soft_voting.png)  |  ![](src_images/stacking.png)
 
 ### Hyperparameter Optimization for Individual Classifier
 
