@@ -6,10 +6,14 @@ An soft-voting classifier was trained based on Random Forests and Support Vector
 
 A stacking classifier was also trained based on Random forests, extremely randomized Forests and Support Vector Machine that classified a test accuracy of 97.08%
 
+### Schematic of Ensemble Classifiers
 
-Based on the exercise from “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", 2nd Edition, by Aurélien Géron (O’Reilly)
+Soft Voting Classifier           |  Stacking Classifier
+:-------------------------:|:-------------------------:
+![](images/soft_voting.png)  |  ![](images/stacking.png)
 
 ### Accuracy Results 
+
 	
 |    Classifier Method    | Test Set Accuracy (%) |
 |:-----------------------:|:---------------------:|
@@ -17,7 +21,6 @@ Based on the exercise from “Hands-On Machine Learning with Scikit-Learn, Keras
 |      Extra Forests      |         97.07         |
 | Support Vector Machines |         96.46         |
 
-		Ensemble Methods
 
 |     Ensemble Method    | Test Set Accuracy (%) |
 |:----------------------:|:---------------------:|
