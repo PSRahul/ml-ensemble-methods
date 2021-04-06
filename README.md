@@ -24,10 +24,10 @@ Soft Voting Classifier           |  Stacking Classifier
 ### Accuracy Results 
 
 	
-|    Classifier Method    | Test Set Accuracy (%) |    |     Ensemble Method    | Test Set Accuracy (%) |
-|:-----------------------:|:---------------------:|    |:----------------------:|:---------------------:|
-|      Random Forests     |         96.87         |    | Soft Voting Classifier |         97.42         |
-|      Extra Forests      |         97.07         |    |   Blending Classifier  |         97.08         |
+|    Classifier Method    | Test Set Accuracy (%) |    
+|:-----------------------:|:---------------------:|   
+|      Random Forests     |         96.87         |    
+|      Extra Forests      |         97.07         |    
 | Support Vector Machines |         96.46         |
 
 
